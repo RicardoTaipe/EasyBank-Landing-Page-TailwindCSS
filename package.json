@@ -1,0 +1,18 @@
+{
+  "name": "easybank-landing-page-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev": "TAILWIND_MODE=watch NODE_ENV=development postcss src/tailwind.css -o ./dist/tailwind.css -w",
+    "build": "postcss ./src/tailwind.css -o ./dist/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.4"
+  }
+}
